@@ -1,6 +1,5 @@
 require('dotenv').config();
 const SENDGRID_API_KEY = process.env.SENDGRID_KEY
-console.log("sendgrid key: ", SENDGRID_API_KEY)
 
 // The Cloud Functions for Firebase SDK to create Cloud Functions and set up triggers.
 const functions = require('firebase-functions');
