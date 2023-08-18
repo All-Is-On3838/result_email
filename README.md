@@ -1,6 +1,8 @@
-Note from Allison:
-- Function requires test info pdfs to be in root folder
-- Instead we can call pdfs from cloud storage? 
+#Goal: 
+create firebase cloud function that sends result email after staff updates test result in provider portal
+
+##Notes
+- Function requires test info pdfs to be in root folder (future: instead we can call pdfs from cloud storage?) 
 
 <br> function currently assumes uid is stored in patient document as "user_id" and email is stored in user document as "email"
 
