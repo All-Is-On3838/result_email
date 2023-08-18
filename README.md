@@ -1,16 +1,15 @@
-#Goal: 
+# Goal: 
 create firebase cloud function that sends result email after staff updates test result in provider portal
 
-##Notes
+## Notes
 - Function requires test info pdfs to be in root folder (future: instead we can call pdfs from cloud storage?) 
+- function currently assumes uid is stored in patient document as "user_id" and email is stored in user document as "email"
 
-<br> function currently assumes uid is stored in patient document as "user_id" and email is stored in user document as "email"
-
-Useful Commands
-<br> firebase emulators:start
+### Useful Commands
+firebase emulators:start
 <br> (when cd'd into the functions folder) npm run-script build
 
-<br> folder structure (--| folder    --|> file)
+folder structure (--| folder    --|> file)
 <br> |-functions
 <br> ----|-lib
 <br> --------|> index.js
